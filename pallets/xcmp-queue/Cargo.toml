@@ -12,14 +12,14 @@ rand = { version = "0.8.3", default-features = false }
 rand_chacha = { version = "0.3.0", default-features = false }
 
 # Substrate Dependencies
-sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
-frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
-frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, branch = "polkadot-v0.9.3" }
+sp-std = { git = "https://github.com/paritytech/substrate", default-features = false, rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", default-features = false, rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+frame-support = { git = "https://github.com/paritytech/substrate", default-features = false, rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+frame-system = { git = "https://github.com/paritytech/substrate", default-features = false, rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
 
 # Polkadot Dependencies
-xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
-xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false, branch = "release-v0.9.3" }
+xcm = { git = "https://github.com/paritytech/polkadot", default-features = false, rev = "82aa404ca3a53814a278c032967d17e44b765b46" }
+xcm-executor = { git = "https://github.com/paritytech/polkadot", default-features = false, rev = "82aa404ca3a53814a278c032967d17e44b765b46" }
 
 # Cumulus Dependencies
 cumulus-primitives-core = { path = "../../primitives/core", default-features = false }

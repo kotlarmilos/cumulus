@@ -8,5 +8,5 @@ edition = "2018"
 structopt = "0.3.3"
 
 # Substrate dependencies
-sc-cli = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
+sc-cli = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sc-service = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }

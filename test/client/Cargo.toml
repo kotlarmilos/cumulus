@@ -5,22 +5,22 @@ authors = ["Parity Technologies <admin@parity.io>"]
 edition = "2018"
 
 [dependencies]
-sc-service = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sc-consensus = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sc-block-builder = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-substrate-test-client = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-runtime = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-core = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-api = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-keyring = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-test-primitives = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-blockchain = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-inherents = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-timestamp = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-sp-state-machine = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-frame-system = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
-pallet-balances = { git = "https://github.com/paritytech/substrate", branch = "polkadot-v0.9.3" }
+sc-service = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sc-consensus = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sc-block-builder = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+substrate-test-client = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-runtime = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-core = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-api = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-keyring = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-test-primitives = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-blockchain = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-inherents = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-timestamp = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+sp-state-machine = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+frame-system = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+pallet-transaction-payment = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
+pallet-balances = { git = "https://github.com/paritytech/substrate", rev = "e98aca335f066d84d7a5cbabf280392f39e1cc99" }
 
 # Cumulus deps
 cumulus-test-runtime = { path = "../runtime" }
@@ -30,7 +30,7 @@ cumulus-primitives-core = { path = "../../primitives/core" }
 cumulus-primitives-parachain-inherent = { path = "../../primitives/parachain-inherent" }
 
 # Polkadot deps
-polkadot-primitives = { git = "https://github.com/paritytech/polkadot", branch = "release-v0.9.3" }
+polkadot-primitives = { git = "https://github.com/paritytech/polkadot", rev = "82aa404ca3a53814a278c032967d17e44b765b46" }
 
 # Other deps
 codec = { package = "parity-scale-codec", version = "2.0.0", default-features = false, features = [ "derive" ] }

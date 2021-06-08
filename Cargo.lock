@@ -3798,7 +3798,7 @@ dependencies = [
 
 [[package]]
 name = "kusama-runtime"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -6414,7 +6414,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-cli"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "frame-benchmarking-cli",
@@ -6531,7 +6531,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-core-primitives"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "parity-scale-codec",
@@ -6543,7 +6543,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-erasure-coding"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "parity-scale-codec",
@@ -6970,7 +6970,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-parachain"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "derive_more 0.99.11",
@@ -6985,7 +6985,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-primitives"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "bitvec",
@@ -7036,7 +7036,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-rpc"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-gadget",
@@ -7069,7 +7069,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-runtime"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -7139,7 +7139,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-runtime-common"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -7181,7 +7181,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-runtime-parachains"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "bitvec",
@@ -7218,7 +7218,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-service"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-gadget",
@@ -7331,7 +7331,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-statement-table"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "parity-scale-codec",
@@ -7341,7 +7341,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-test-client"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "parity-scale-codec",
@@ -7366,7 +7366,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-test-runtime"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -7423,7 +7423,7 @@ dependencies = [
 
 [[package]]
 name = "polkadot-test-service"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "frame-benchmarking",
@@ -8225,7 +8225,7 @@ dependencies = [
 
 [[package]]
 name = "rococo-runtime"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -9747,7 +9747,7 @@ dependencies = [
 
 [[package]]
 name = "slot-range-helper"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "enumn",
@@ -12188,7 +12188,7 @@ dependencies = [
 
 [[package]]
 name = "westend-runtime"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "beefy-primitives",
@@ -12369,7 +12369,7 @@ dependencies = [
 
 [[package]]
 name = "xcm"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "derivative",
@@ -12379,7 +12379,7 @@ dependencies = [
 
 [[package]]
 name = "xcm-builder"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "frame-support",
@@ -12398,7 +12398,7 @@ dependencies = [
 
 [[package]]
 name = "xcm-executor"
-version = "0.9.3"
+version = "0.9.4"
 source = "git+https://github.com/paritytech/polkadot?branch=master#82aa404ca3a53814a278c032967d17e44b765b46"
 dependencies = [
  "frame-support",
